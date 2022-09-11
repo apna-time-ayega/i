@@ -13,7 +13,7 @@ jobs:
     - name: Extract
       run: Expand-Archive ngrok.zip
     - name: Auth
-      run: .\ngrok\ngrok.exe authtoken 2EZXQsqlaSw8lzrFCqQ6KJhZWcC_6vYurALwTJ8sCfGbxkGhh
+      run: .\ngrok\ngrok.exe authtoken 2EcJ0N00n5R1OrM7d28v2MKU9zj_jRtvQaTC4XzsLFH2ArtE
       env:
         NGROK_AUTH: ${{ secrets.NGROK_AUTH }}
     - name: Enable TS
